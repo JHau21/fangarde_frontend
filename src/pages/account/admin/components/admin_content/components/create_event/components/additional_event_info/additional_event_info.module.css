@@ -1,0 +1,218 @@
+h3 {
+	margin: 0px;
+	margin-bottom: 5px;
+	/* margin-top: 10px; */
+}
+
+h2 {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+input {
+	margin-bottom: 25px;
+}
+textarea {
+	margin-bottom: 30px;
+}
+
+.button_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 40px;
+	width: 500px;
+}
+
+.banner {
+	width: 429px;
+}
+.checkBox {
+	width: 16px;
+	height: 16px;
+	border-radius: 0px;
+	margin-right: 10px;
+}
+
+.checkboxRow {
+	display: flex;
+	flex-direction: row;
+	width: 946px;
+	justify-content: space-between;
+}
+.checkBoxContainer {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+.column {
+	display: flex;
+	width: 1000px;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.continue {
+	position: relative;
+}
+.donationWrapper {
+	font-weight: 600;
+	font-size: 20px;
+}
+.errorMessage {
+	font-size: 14px;
+	position: absolute;
+	color: #dc1a21;
+	top: 12px;
+	white-space: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.errorMessage2 {
+	font-size: 14px;
+	position: absolute;
+	color: #dc1a21;
+	top: 55px;
+	white-space: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.errorMessageSubmit {
+	font-size: 14px;
+	position: absolute;
+	color: #dc1a21;
+	left: 4px;
+	white-space: nowrap;
+}
+.inputContainer {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	position: relative;
+}
+.inputLong {
+	width: 428px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	height: 100px;
+	max-width: 428px;
+	min-width: 428px;
+	min-height: 40px;
+	max-height: 350px;
+}
+.inputLong:focus {
+	width: 428px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #085976;
+	border-radius: 5px;
+	outline: none;
+	height: 100px;
+	max-width: 428px;
+	min-width: 428px;
+	min-height: 40px;
+}
+.inputLong:hover {
+	width: 428px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #5d86a4;
+	border-radius: 5px;
+	height: 100px;
+	max-width: 428px;
+	min-width: 428px;
+	min-height: 40px;
+}
+.inputThin {
+	width: 80px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+	height: 30px;
+	font-size: 16px;
+}
+.inputThin:focus {
+	width: 80px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #085976;
+	border-radius: 5px;
+	height: 30px;
+}
+.inputThin:hover {
+	width: 80px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #5d86a4;
+	border-radius: 5px;
+	height: 30px;
+}
+.inputError {
+	width: 184px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 5px;
+	height: 30px;
+	border: 3px solid #dc1a21;
+}
+
+.inputTitle {
+	align-self: center;
+}
+.radio {
+	position: relative;
+	margin-bottom: 20px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.radioForm {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.suffix {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	margin-left: 30px;
+	margin-right: 5px;
+}
+.userCheckboxRow {
+	display: flex;
+	flex-direction: row;
+	width: 940px;
+	justify-content: space-between;
+}
+.userInputRow {
+	display: flex;
+	flex-direction: row;
+	width: 770px;
+	justify-content: space-between;
+}
+
+.userInputColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-right: 20px;
+	width: 450px;
+}
+.zipCode {
+	align-self: center;
+}

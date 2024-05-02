@@ -1,0 +1,367 @@
+.account_info_wrapper {
+	width: 870px;
+}
+
+.adminContent {
+	width: 873px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.adminColumn {
+	margin-right: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+	border: 3px solid #085976;
+	border-radius: 10px;
+	border: 3px solid #085976;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.adminErrorMessage {
+	font-size: 16px;
+	position: absolute;
+	color: #dc1a21;
+}
+.adminRow {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	align-items: center;
+	width: 873px;
+	height: 600px;
+	overflow-x: scroll;
+}
+.accountInfo {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.custom_email_inputs {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 105px;
+	margin: 0px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.custom_email_message {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 40px;
+}
+
+.deleteContainer {
+	position: relative;
+}
+.description {
+	margin-top: 0px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	height: auto;
+	border: none;
+	outline: none;
+}
+.description:focus {
+	border: none;
+	outline: none;
+}
+.descriptionEdit {
+	margin-top: 0px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	height: auto;
+	border: none;
+	outline: 2px solid #5d86a4;
+	border-radius: 5px;
+	max-height: 210px;
+}
+.descriptionEdit:focus {
+	border-radius: 5px;
+	outline: 3px solid #5d86a4;
+}
+
+.email_message_input_wrapper {
+	width: 100%;
+}
+.error_message {
+	font-size: 16px;
+	position: absolute;
+	bottom: -22px;
+	white-space: nowrap;
+}
+.generalInfo {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+}
+
+.input_box {
+	height: 30px;
+	width: 98%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+	padding-left: 5px;
+	border: 3px solid #becbdc;
+	text-align: left;
+	border-radius: 5px;
+}
+
+.input_box:hover {
+	height: 30px;
+	border-radius: 5px;
+	border: 3px solid #5d86a4;
+}
+
+.input_box:focus {
+	height: 30px;
+	border-radius: 5px;
+	border: 3px solid #085976;
+	outline: none;
+}
+
+.input_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 48.5%;
+	height: 100%;
+}
+
+.left_column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 49%;
+	margin-right: 25px;
+}
+
+.marketing_comm_header_section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.radio_option {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.radio_options {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: 1fr 1fr;
+	gap: 15px; /* Adjust the gap size as needed */
+	height: 70px;
+	width: 100%;
+}
+
+.right_column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 48.5%;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.button {
+	margin-top: 40px;
+	margin-right: 40px;
+}
+.editText {
+	width: 440px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.errorMessage {
+	font-size: 16px;
+	position: absolute;
+	color: #dc1a21;
+	bottom: 225px;
+}
+.image {
+	width: 370px;
+	border-radius: 10px;
+}
+.imageContainer {
+	border-radius: 10px;
+	width: 370px;
+	height: 115px;
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	align-self: center;
+	justify-content: center;
+	position: relative;
+}
+.imageContainer:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	/* background: rgba(0, 0, 0, .5); */
+}
+.imageUploaded {
+	border-radius: 10px;
+	width: 370px;
+	height: 115px;
+	display: flex;
+	background-color: gray;
+	align-items: center;
+	overflow: hidden;
+	align-self: center;
+	justify-content: center;
+	position: relative;
+}
+.imageUploaded:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.4);
+}
+.inputColumn {
+	margin-top: 40px;
+	width: 100%;
+}
+.inputInfo {
+	border: none;
+	border-radius: 5px;
+	height: 22px;
+	margin-right: 2px;
+	overflow: visible;
+	width: 100%;
+	margin: 0px;
+	padding-left: 4px;
+}
+.inputInfoEdit {
+	border: none;
+	border-bottom: #085976 solid 2px;
+	border-top: white solid 2px;
+	display: flex;
+	width: 100%;
+	margin: 0px;
+	font-size: 16px;
+	outline: none;
+	padding-left: 4px;
+}
+.inputInfoEdit:focus {
+	border: none;
+	border-bottom: #085976 solid 3px;
+	border-top: white solid 3px;
+	display: flex;
+	width: 100%;
+	margin: 0px;
+}
+.inputRow {
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 22px;
+	position: relative;
+}
+.removeAdmin {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #dc1a21;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.removeAdminError {
+	font-size: 16px;
+	position: absolute;
+	color: #dc1a21;
+	bottom: 0px;
+	/* bottom: -20px; */
+	white-space: nowrap;
+}
+.scrollBar {
+	align-self: center;
+	display: flex;
+	height: 100%;
+	width: 5px;
+	background-color: #becbdc;
+	margin-right: 15px;
+}
+.scrollArrow {
+	align-self: center;
+}
+.scrollRow {
+	display: flex;
+	flex-direction: row;
+	height: 600px;
+	margin-bottom: 25px;
+	/* background-color: #dc1a21; */
+	align-items: center;
+}
+.uploadImageButton {
+	cursor: pointer;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	position: absolute;
+	font-size: 24px;
+	z-index: 5;
+	margin-bottom: 20px;
+	background-color: #dc1a21;
+}
+.uploadImage {
+	display: none;
+}
+
+/* Placeholder styling */
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #262722;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #262722;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #262722;
+}

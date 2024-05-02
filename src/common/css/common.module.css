@@ -1,0 +1,73 @@
+/* This is a CSS file for common CSS styling */
+.common_bar_small {
+	/* Since this is rotated, the height changes the width and the width changes the height */
+	transform: rotate(90deg);
+	height: 4px;
+	width: 30px;
+	margin-right: 3px;
+	margin-left: 0px;
+	border: none;
+}
+
+.common_bar_tall {
+	/* Since this is rotated, the height changes the width and the width changes the height */
+	transform: rotate(90deg);
+	height: 4px;
+	width: 35px;
+	margin-right: 3px;
+	margin-left: 0px;
+	border: none;
+}
+
+.common_font_small {
+	font-size: 16px;
+}
+
+.common_font_medium {
+	font-size: 20px;
+}
+
+.common_font_large {
+	font-size: 32px;
+}
+
+.common_bold {
+	font-weight: 650;
+}
+
+.common_medium {
+	font-weight: 500;
+}
+
+.common_light {
+	font-weight: 300;
+}
+
+.common_root {
+	/* This is the common root for all of our pages */
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 0%;
+	/* height: 100%; */
+	width: 88%;
+}
+
+.common_font_family {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.common_image_container {
+	width: 350px;
+	height: 270px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 10px;
+	align-self: center;
+	justify-content: center;
+	position: relative;
+	background-color: #BECBDC;
+}
+
+.common_image {
+	width: 350px;
+}

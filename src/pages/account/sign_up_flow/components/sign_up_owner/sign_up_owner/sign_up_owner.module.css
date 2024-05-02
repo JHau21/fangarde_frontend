@@ -1,0 +1,114 @@
+.button {
+	width: 200px;
+	height: 32px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2px;
+	background: none;
+	border: 3px solid #085976;
+	color: #085976;
+}
+
+.button:hover {
+	cursor: pointer;
+	border: 3px solid #becbdc;
+	color: #f7f7f9;
+	background-color: #becbdc;
+}
+
+.button:active {
+	border: 3px solid #5d86a4;
+	color: #f7f7f9;
+	background-color: #5d86a4;
+}
+
+.button_center_container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	margin-top: 40px;
+	width: 450px;
+}
+
+.error_message {
+	position: absolute;
+	left: 0%;
+	top: 85%;
+}
+
+.input_container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 600px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.input_dd_general {
+	height: 39.55px;
+	width: 98%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+	padding-left: 5px;
+	border: 3px solid #becbdc;
+	text-align: left;
+	border-radius: 5px;
+}
+
+.input_dd_general:hover {
+	cursor: pointer;
+	height: 39.55px;
+	border-radius: 5px;
+	border: 3px solid #5d86a4;
+}
+
+.input_dd_general:focus {
+	height: 39.55px;
+	border-radius: 5px;
+	border: 3px solid #085976;
+	outline: none;
+}
+
+.input_general {
+	height: 30px;
+	width: 98%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+	padding-left: 5px;
+	border: 3px solid #becbdc;
+	text-align: left;
+	border-radius: 5px;
+}
+
+.input_general:hover {
+	height: 30px;
+	border-radius: 5px;
+	border: 3px solid #5d86a4;
+}
+
+.input_general:focus {
+	height: 30px;
+	border-radius: 5px;
+	border: 3px solid #085976;
+	outline: none;
+}
+
+.input_row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+}
+
+.root_assist {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

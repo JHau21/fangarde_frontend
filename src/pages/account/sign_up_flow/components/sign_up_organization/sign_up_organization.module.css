@@ -1,0 +1,132 @@
+/* HTML Tag Styles */
+.buttonRow {
+	display: flex;
+	justify-content: space-between;
+	width: 535px;
+	margin-bottom: 40px;
+	margin-top: 50px;
+}
+.column {
+	display: flex;
+	width: 887px;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.errorMessage {
+	font-size: 14px;
+	position: absolute;
+	color: #dc1a21;
+	margin-top: -0px;
+	white-space: nowrap;
+}
+.inputLongDropdown {
+	width: 100%;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 5px;
+	border: 3px solid #becbdc;
+	height: 48px;
+	font-size: 16px;
+	outline: none;
+}
+.inputLongDropdown:focus {
+	width: 100%;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 5px;
+	border: 3px solid #085976;
+	height: 48px;
+	font-size: 16px;
+}
+.inputLongDropdown:hover {
+	width: 100%;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #5d86a4;
+	border-radius: 5px;
+	height: 48px;
+	font-size: 16px;
+}
+.inputLong {
+	width: 601px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputLong:focus {
+	width: 601px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #085976;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputLong:hover {
+	width: 601px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #5d86a4;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.radio_box {
+	width: 12.5px;
+	height: 12.5px;
+	border: 3px solid #085976;
+	margin-right: 5px;
+}
+
+.radio_box:hover {
+	background-color: #becbdc;
+	cursor: pointer;
+}
+
+.radio_box:active {
+	background-color: #5d86a4;
+	cursor: pointer;
+}
+
+.radio_box_filled {
+	background-color: #5d86a4;
+}
+
+.radio_section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.radio_section_option {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 60px;
+}
+
+.radio_section_options_container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 140px;
+}
+
+.userInputColumn {
+	display: flex;
+	flex-direction: column;
+	width: 623px;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.userInput {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}

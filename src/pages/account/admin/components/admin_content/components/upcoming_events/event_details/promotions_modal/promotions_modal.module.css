@@ -1,0 +1,93 @@
+.buttonRow {
+	width: 540px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.checkbox {
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+.error {
+	position: absolute;
+	color: #dc1a21;
+	top: 150px;
+}
+.noPromoCodes {
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+.promoCodesDisplay {
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+	align-items: center;
+	height: 210px;
+	overflow-y: scroll;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #becbdc;
+	box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2) inset;
+}
+.promoCode {
+	width: 534px;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.promoCodeCode {
+	width: 150px;
+	text-align: end;
+	white-space: nowrap;
+}
+.promoCodeInput {
+	width: 130px;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+}
+.promoCodeDiscount {
+	width: 150px;
+	text-align: center;
+	white-space: nowrap;
+}
+.promoCodeHeader {
+	width: 370px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+.promoCodeName {
+	width: 150px;
+	white-space: nowrap;
+}
+.promoCodeWrapper {
+	display: flex;
+	flex-direction: row;
+	width: 420px;
+	align-items: center;
+	height: 35px;
+}
+.promoCodeInputWrapper {
+	display: flex;
+	flex-direction: row;
+	width: 450px;
+	justify-content: space-between;
+	height: 25px;
+}

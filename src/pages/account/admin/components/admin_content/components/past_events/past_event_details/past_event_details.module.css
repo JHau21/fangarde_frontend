@@ -1,0 +1,74 @@
+.buttonColumn {
+	display: flex;
+	flex-direction: column;
+}
+.column {
+	width: 425px;
+}
+.edit {
+	font-size: 600;
+	font-size: 20px;
+	color: #085976;
+	cursor: pointer;
+}
+.editRow {
+	display: flex;
+	left: 614px;
+	flex-direction: row;
+	align-items: center;
+	position: absolute;
+	top: -71px;
+	width: 530px;
+	justify-content: space-between;
+}
+.eventInfo {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.eventBanner {
+	width: 397px;
+}
+.header {
+	height: 156px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+	position: relative;
+}
+.imageViewport {
+	width: 397px;
+	height: 160px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius: 10px;
+	border: 3px solid #becbdc;
+}
+.name {
+	color: #262722;
+	border-left: 4px solid #5d86a4;
+	margin-left: 15px;
+	padding-left: 15px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.title {
+	border-left: 4px solid #5d86a4;
+	margin-left: 15px;
+	padding-left: 15px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #262722;
+}

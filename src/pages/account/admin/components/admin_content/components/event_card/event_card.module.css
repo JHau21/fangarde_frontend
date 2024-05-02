@@ -1,0 +1,23 @@
+.cardRow {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-self: flex-end;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+.eventCardImage {
+	width: 213px;
+}
+.eventCardInfo {
+	height: 160px;
+	width: 213px;
+	border-radius: 10px;
+	margin-right: 13px;
+	width: 602px;
+	display: flex;
+	flex-direction: column;
+	align-self: top;
+	align-items: flex-start;
+}

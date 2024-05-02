@@ -1,0 +1,39 @@
+h3 {
+	margin: 0px;
+	margin-bottom: 5px;
+	/* margin-top: 10px; */
+}
+
+.checkBox {
+	width: 16px;
+	height: 16px;
+	border-radius: 0px;
+	margin-right: 10px;
+}
+.checkBoxContainer {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+.inputContainer {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+.radioForm {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+}
+.rowCheckBoxContainer {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.rowRadioForm {
+	display: flex;
+	flex-direction: row;
+}

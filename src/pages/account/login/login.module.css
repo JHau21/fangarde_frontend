@@ -1,0 +1,42 @@
+.buttonRow {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+.column {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 40px;
+	width: 450px;
+}
+.errorMessage {
+	font-size: 14px;
+	position: absolute;
+	color: #dc1a21;
+	margin-top: -10px;
+	white-space: nowrap;
+}
+
+.password {
+	display: flex;
+}
+
+.submitError {
+	height: 70px;
+	position: relative;
+}
+.submitMessage {
+	font-size: 14px;
+	margin: 0px;
+	height: 0px;
+	color: #dc1a21;
+	white-space: nowrap;
+	margin-top: 10px;
+}
+.userInput {
+	text-align: left;
+	width: 100%;
+	position: relative;
+}

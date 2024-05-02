@@ -1,0 +1,107 @@
+.errorMessage {
+	font-size: 16px;
+	position: absolute;
+	color: #dc1a21;
+	bottom: -8px;
+	white-space: nowrap;
+}
+.disabled {
+	width: 200px;
+	border: none;
+	margin-bottom: 4px;
+}
+.disabledLong {
+	width: 446px;
+	border: none;
+	margin-bottom: 4px;
+}
+.inputLong {
+	width: 428px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputLong:focus {
+	width: 428px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #085976;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputLong:hover {
+	width: 428px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #5d86a4;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputErrorLong {
+	width: 428px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 5px;
+	height: 40px;
+	border: 3px solid #dc1a21;
+}
+.inputThin {
+	width: 184px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputThin:focus {
+	width: 184px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #085976;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputThin:hover {
+	width: 184px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #5d86a4;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputError {
+	width: 184px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 5px;
+	height: 40px;
+	border: 3px solid #dc1a21;
+}
+.nameColumn {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.userInputColumn {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	align-items: center;
+}
+.userInputRow {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+.userInput {
+	text-align: left;
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

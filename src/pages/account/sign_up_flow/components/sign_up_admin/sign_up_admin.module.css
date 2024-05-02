@@ -1,0 +1,106 @@
+/* Style Classes */
+.adminColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 325px;
+	border-radius: 10px;
+	border: 3px solid #085976;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	position: relative;
+}
+.adminHeader {
+	margin: 0px;
+	margin-top: 40px;
+}
+.adminRow {
+	display: flex;
+	flex-direction: row;
+	width: 1320px;
+	align-items: center;
+	overflow: scroll;
+}
+.buttonRow {
+	display: flex;
+	justify-content: space-between;
+	width: 535px;
+	margin-top: 40px;
+}
+.column {
+	display: flex;
+	width: 887px;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.deleteButton {
+	width: 235px;
+	height: 35px;
+	color: #dc1a21;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	border: 0px;
+	cursor: pointer;
+}
+.nameColumn {
+}
+.removeAdmin {
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #dc1a21;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.removeAdminError {
+	font-size: 16px;
+	position: absolute;
+	color: #dc1a21;
+	bottom: 0px;
+	white-space: nowrap;
+}
+
+.scrollBar {
+	align-self: center;
+	display: flex;
+	height: 100%;
+	width: 5px;
+	background-color: #becbdc;
+	margin-right: 15px;
+}
+.scrollArrow {
+	align-self: center;
+}
+.scrollRow {
+	display: flex;
+	flex-direction: row;
+	height: 450px;
+	align-items: center;
+}
+.userInputColumn {
+	display: flex;
+	flex-direction: column;
+	width: 623px;
+	align-items: center;
+	margin-bottom: 40px;
+	/* margin-top: 40px; */
+}
+.userInputRow {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+.userInput {
+	text-align: left;
+	width: 100%;
+}

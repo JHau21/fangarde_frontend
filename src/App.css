@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.common_bar_small {
+	transform: rotate(90deg);
+	height: 4px;
+	width: 30px;
+	margin-right: 3px;
+	margin-left: 0px;
+	border: none;
+}
+
+.common_bar_tall {
+	transform: rotate(90deg);
+	height: 4px;
+	width: 35px;
+	margin-right: 3px;
+	margin-left: 0px;
+	border: none;
+}
+
+.common_font_small {
+	font-size: 16px;
+}
+
+.common_font_medium {
+	font-size: 20px;
+}
+
+.common_font_large {
+	font-size: 32px;
+}
+
+.common_bold {
+	font-weight: 650;
+}
+
+.common_medium {
+	font-weight: 500;
+}
+
+.common_light {
+	font-weight: 300;
+}
+
+.common_root {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.common_font_family {
+	font-family: Arial, Helvetica, sans-serif;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: 32px;
+	font-family: "Helvetica" sans-serif;
+}
+h2 {
+	font-size: 24px;
+	font-family: "Helvetica" sans-serif;
+}
+h3 {
+	font-size: 20px;
+	font-family: "Helvetica" sans-serif;
+}
+hr {
+	transform: rotate(90deg);
+	margin-right: 3px;
+	margin-left: 0px;
+	border: none;
+}
+input {
+	font-size: 16px;
+	font-family: "Helvetica" sans-serif;
+}
+input:focus {
+	outline: none;
+}
+p {
+	font-size: 16px;
+	font-family: "Helvetica" sans-serif;
+}
+span {
+	font-size: 16px;
+	font-family: "Helvetica" sans-serif;
+}
+
+label {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+	height: 0px;
+}
+
+.central_root {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.common_font_family {
+	font-family: Arial, Helvetica, sans-serif;
+}

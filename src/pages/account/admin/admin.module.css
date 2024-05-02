@@ -1,0 +1,26 @@
+.adminContent {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 1257px;
+	margin-top: 30px;
+}
+
+.paid_events_warning {
+	align-self: flex-start;
+	max-width: 90%;
+	padding: 10px;
+	padding-left: 5%;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #085976;
+}
+
+.header_and_text {
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+}

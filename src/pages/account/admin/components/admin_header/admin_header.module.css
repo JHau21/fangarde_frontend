@@ -1,0 +1,26 @@
+.greeting {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.headerContent {
+	width: 1257px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.imageContainer {
+	background-color: black;
+	width: 804px;
+	height: 250px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+.image {
+	border-radius: 10px;
+	width: 804px;
+	background-color: gray;
+}

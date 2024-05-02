@@ -1,0 +1,109 @@
+/* HTML Tag Styles */
+.buttonRow {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 535px;
+	margin-top: 40px;
+}
+.column {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.errorMessage {
+	font-size: 16px;
+	position: absolute;
+	color: #dc1a21;
+	margin-top: -0px;
+	white-space: nowrap;
+}
+.inputThin {
+	width: 208px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #becbdc;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputThin:focus {
+	width: 208px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #085976;
+	border-radius: 5px;
+	height: 40px;
+}
+.inputThin:hover {
+	width: 208px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 3px solid #5d86a4;
+	border-radius: 5px;
+	height: 40px;
+}
+.loginInforamtion {
+	margin: 0px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.nameColumn {
+	width: 230px;
+}
+.passwordMsg {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 20px;
+	height: 15px;
+	width: 100%;
+}
+.passwordIcon {
+	margin-right: 5px;
+	height: 14px;
+}
+.passwordValid {
+	margin: 0px;
+	font-size: 14px;
+}
+
+.password {
+	position: relative;
+	display: flex;
+}
+.showPassword {
+	position: absolute;
+	right: 15px;
+	cursor: pointer;
+	color: #085976;
+	font-weight: 600;
+}
+.showConfirmPassword {
+	position: absolute;
+	right: 15px;
+	cursor: pointer;
+	color: #085976;
+	font-weight: 600;
+}
+.submitError {
+	position: relative;
+}
+.userInputColumn {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	align-items: center;
+}
+.userInputRow {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+.userInput {
+	text-align: left;
+	width: 100%;
+}

@@ -1,0 +1,57 @@
+h1 {
+	margin-bottom: 60px;
+}
+h2 {
+	margin-bottom: 40px;
+}
+.button {
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+.buttonRow {
+	display: flex;
+	justify-content: space-between;
+	width: 535px;
+	margin-bottom: 40px;
+	margin-top: 35px;
+}
+.column {
+	display: flex;
+	width: 970px;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.continue {
+	position: relative;
+}
+.deleteButton {
+	margin-bottom: 40px;
+	margin-top: 35px;
+}
+.seperator {
+	width: 100%;
+	height: 5px;
+	background-color: #becbdc;
+	margin-bottom: 40px;
+}
+.errorMessageSubmit {
+	font-size: 14px;
+	position: absolute;
+	color: #dc1a21;
+	left: 4px;
+	/* white-space: nowrap; */
+	width: 220px;
+}
+
+.inputLongMoney::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.inputLong::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
